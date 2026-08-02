@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Leitura Diária</title>
+<style>
+  body {
+    background-color: #fafaf7;
+    color: #1a1a1a;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.25;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3rem;
+  }
+  .updated { color: #555; font-style: italic; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td {
+    border: 1px solid #bbb;
+    padding: 0.5rem 0.65rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background-color: #f0efe9; }
+  a { color: #1a5276; }
+  ol, ul { padding-left: 1.4rem; }
+</style>
+</head>
+<body>
+<h1>Política de Privacidade — Leitura Diária</h1>
+<p class="updated">Última atualização: 1 de agosto de 2026</p>
+
+<p>O Leitura Diária é um aplicativo de leitura em voz alta para grupos pequenos e privados. Esta página explica o que o app coleta, por que coleta e como apagar tudo.</p>
+
+<h2>Quem é o responsável</h2>
+<p>O aplicativo é mantido por uma pessoa física para uso de um grupo privado de leitura. Não há empresa, não há anunciante e não há venda de dados.</p>
+
+<h2>O que o app coleta</h2>
+<table>
+  <thead>
+    <tr><th>Dado</th><th>Por quê</th><th>Onde fica</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E-mail</td><td>É como você entra. O acesso é por código enviado ao seu e-mail, sem senha.</td><td>Supabase (banco de dados do app)</td></tr>
+    <tr><td>Nome de exibição</td><td>Para o grupo saber quem é quem na sala.</td><td>Supabase</td></tr>
+    <tr><td>Áudio e vídeo da chamada</td><td>Para as pessoas do seu círculo ouvirem e verem você durante a leitura.</td><td>Transmitido ao vivo pelo servidor da chamada (LiveKit). NÃO é gravado.</td></tr>
+    <tr><td>Transcrição do que foi falado</td><td>Vira o resumo da manhã e fica no histórico do grupo.</td><td>Supabase</td></tr>
+    <tr><td>Posição da leitura</td><td>Para a próxima manhã abrir no ponto em que o grupo parou.</td><td>Supabase</td></tr>
+    <tr><td>Relatórios de erro</td><td>Mensagem do erro, versão do app e modelo do aparelho, para consertar defeitos.</td><td>Supabase</td></tr>
+  </tbody>
+</table>
+
+<h2>O que o app não coleta</h2>
+<p>Não há anúncios, rastreadores de terceiros, perfil de publicidade, localização, lista de contatos, agenda nem histórico de navegação. O app não vende nem compartilha dados com terceiros para fins comerciais.</p>
+
+<h2>Como o áudio é usado</h2>
+<p>Durante a leitura, o microfone tem dois usos:</p>
+<ol>
+  <li><strong>A chamada.</strong> Sua voz é transmitida ao vivo para as pessoas do seu círculo. O áudio NÃO é gravado em nenhum momento.</li>
+  <li><strong>O grifo.</strong> Enquanto você lê em voz alta, o reconhecimento de fala do próprio aparelho descobre em que ponto do texto você está, para destacar a linha na tela de todo mundo. Esse reconhecimento roda no seu celular, pelo serviço do sistema operacional. O que sai do aparelho é o texto reconhecido, que vira a transcrição da sessão.</li>
+</ol>
+<p>A câmera é usada só para a chamada ao vivo, e também não é gravada.</p>
+
+<h2>Quem vê o quê</h2>
+<p>Tudo é restrito ao seu círculo. Só quem faz parte do mesmo círculo vê as sessões, as transcrições e os resumos daquele círculo. Isso é aplicado no banco de dados por regras de acesso por linha (Row Level Security), não só na tela do app.</p>
+
+<h2>Segurança</h2>
+<p>Todo o tráfego entre o app, o banco e o servidor de chamada é criptografado em trânsito (HTTPS e DTLS/SRTP). As chaves de serviço nunca ficam dentro do aplicativo: elas vivem apenas no servidor.</p>
+
+<h2>Apagar seus dados</h2>
+<p>Dentro do app: toque no seu avatar na tela inicial e escolha "Apagar conta". Isso remove seu login, seu perfil e seus dados pessoais. As manhãs que o grupo já leu continuam no histórico do círculo, sem o seu nome, porque o acervo é do grupo e não de uma pessoa só. Se preferir, escreva para o e-mail de contato abaixo pedindo a exclusão.</p>
+
+<h2>Retenção</h2>
+<p>Os dados ficam enquanto a conta existir. Ao apagar a conta, os dados pessoais são removidos imediatamente.</p>
+
+<h2>Crianças</h2>
+<p>O app não é destinado a menores de 13 anos.</p>
+
+<h2>Mudanças nesta política</h2>
+<p>Se algo mudar, a data no topo muda junto e o texto novo passa a valer a partir da publicação.</p>
+
+<h2>Contato</h2>
+<p>Dúvidas ou pedidos sobre seus dados: <a href="mailto:brunomendoncadg@gmail.com">brunomendoncadg@gmail.com</a></p>
+</body>
+</html>
